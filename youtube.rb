@@ -1,9 +1,13 @@
 require 'active_support/core_ext/hash'
 require 'yt'
 
-# Yt.configuration.client_id = "213998089359-2p9aah07s3ime3u2uspbjn8hu0uqihv5.apps.googleusercontent.com"
-# Yt.configuration.client_secret = "H9Z0BPCJzPruP6GFI_Jbzn-L"
+Yt.configuration.client_id = "419216666613-he53gnnaf32dsruovgnr39jbdeuos4f9.apps.googleusercontent.com"
+Yt.configuration.client_secret = "kp67MX9MOX5ZTjXepTHEEOKO"
 
-Yt.configuration.api_key = "H9Z0BPCJzPruP6GFI_Jbzn-L"
+Yt.configuration.api_key = "AIzaSyAylNrbNauAF6RnrFIRmY8Mn_8dnJ01ht4"
+
+playlist = Yt::Playlist.new
+
+
 
 

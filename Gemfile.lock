@@ -19,7 +19,7 @@ GEM
     json (1.8.3)
     jwt (1.5.2)
     mime-types (2.99)
-    minitest (5.8.3)
+    minitest (5.8.4)
     multi_json (1.11.2)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
@@ -37,6 +37,10 @@ GEM
       oauth2 (~> 1.0)
       omniauth (~> 1.2)
     rack (1.6.4)
+    rest-client (1.8.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 3.0)
+      netrc (~> 0.7)
     rest-client (1.8.0-x64-mingw32)
       ffi (~> 1.9)
       http-cookie (>= 1.0.2, < 2.0)
@@ -50,16 +54,15 @@ GEM
       thread_safe (~> 0.1)
     unf (0.1.4)
       unf_ext
+    unf_ext (0.0.7.1)
     unf_ext (0.0.7.1-x64-mingw32)
     yt (0.25.19)
       activesupport
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
   rspotify
   yt (~> 0.25.5)
-
-BUNDLED WITH
-   1.11.2
