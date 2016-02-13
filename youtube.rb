@@ -8,6 +8,6 @@ Yt.configuration.api_key = "AIzaSyAylNrbNauAF6RnrFIRmY8Mn_8dnJ01ht4"
 
 playlist = Yt::Playlist.new
 
-
+# https://github.com/Fullscreen/yt#web-apps-that-require-user-interactions
 
 
